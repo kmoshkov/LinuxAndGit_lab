@@ -1,0 +1,12 @@
+Вариант 4
+
+1) cat dictionary_2026.txt | wc -w
+
+2) cat dictionary_2026.txt | tr -s " " "\n" | grep -xiE '([^e]*e){3}[^e]*' | wc -w
+
+3) cat dictionary_2026.txt | tr -s " " "\n" | grep -xiE '[^n]*n([^n]+n){2}[^n]*' | wc -w
+
+4) cat dictionary_2026.txt | tr -s " " "\n" | tr [A-Z] [a-z] | grep -xE '([^a]*a){3}[^a]*' | cut -c 1-3 | sort -f | uniq -c | sort -n | head -n 5 | sort -k 2 | grep -oE '[a-z]{3}'
+
+
+
