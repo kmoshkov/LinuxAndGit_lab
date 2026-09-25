@@ -1,6 +1,6 @@
- Artificial Intelligence
- Computer Systems
- Empirical Machine Learning
- Human-Centered and Creative AI
- Machine Learning
- Robotics
+Robotics
+Empirical Machine Learning
+Human-Centered and Creative AI
+Computer Systems
+Machine Learning
+Artificial Intelligence
